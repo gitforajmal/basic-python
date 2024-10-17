@@ -56,3 +56,39 @@ elif age >=13 and age < 18:
     print("Teen")
 else:
     print("Adult")
+    
+#For Loop
+flist = ['one', 'two','three','four']
+for item in flist:
+    print (item)
+for i in range(3,6):
+    print (i)
+for i in range(0,10,3):
+    print (i)
+#While Loop
+c =10
+while c < 15:
+    c = c+1
+    if c==3:
+        pass    #break, continue, pass are control statements in while loop
+    print (c)
+# Try - Except
+try:
+    if snm < 2:
+        print(snm)
+except:
+    print("Error in Block")
+
+#Function
+def addNum(a, b):
+    print(f"sum is {a+b}")
+    return a + b
+
+sumN = addNum(10,20)
+print ("sum v", sumN)
+
+print(dir('hello'))
+print (help('hello'.split))
+print("Conversion of type ", int("35") + 15)
+
+print("End of Basics")
